@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+.Container-Full>*{
+    display: flex;
+    padding: 2rem;
+    
+}
+.Container-Full{
+    display: grid;
+    height: 100vh;
+    grid-gap: 1rem;
+}
+/* Header Part */ 
+header{
+    grid-column: 1/5;
+    
+    height:2rem;
+    margin-bottom: 0;
+}
+.Head{
+    display: flex;
+    gap: 3rem;
+    flex-grow: 1;
+    
+}
+.Head .HeadLeft{
+    margin-right: auto; 
+    font-size: 2rem;
+    font-weight:bold;
+}
+.home{
+    text-decoration: none;
+    color: black;
+}
+.Head .HeadMiddle{
+    align-items: center;
+}
+.searchbar{
+    padding: 0.3rem;
+    width: 25rem;
+}
+.Head .HeadRight{
+    margin-left: auto;
+    display: flex; 
+    gap: 2rem;
+    font-size: 1.4rem;
+}
+.log{
+    height: fit-content;
+    border: none;
+    padding: 0.6rem;
+    text-decoration: none;
+    background-color: gray;
+    color: whitesmoke;
+}
+.icon1{
+    display: flex;
+}
+.icon2{
+    display: flex;
+}
+.badge1{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid;
+    background-color: crimson;
+    color: aliceblue;
+    padding: 2px;
+    border-radius: 20%;
+    position: relative;
+    bottom: 5px;
+    right: 8px;
+}
+
+
+/* Main Part */
+main{
+   grid-column: 1/5;
+   grid-row: 2/20; 
+   background-color: rgb(228, 227, 227);
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Log-container{
+    height: 31.2rem;
+    width: 35rem;
+    border-radius: 0.8rem;
+    margin-left:1rem;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.LogTop{
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    color: blueviolet;
+}
+.Email{
+    padding: 1rem;
+    margin: 0.2rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.LogInput{
+    width: 25rem;
+}
+
+.Pass{
+    padding: 1rem;
+    margin: 0.2rem;
+    align-content: center;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.LogMid{
+    
+    display: flex;
+    font-size: small;
+    padding: 0.5rem;
+    width: 25rem;
+    margin-left: 3.6rem;
+}
+.forgot{
+    margin-left: auto;
+    text-decoration: none;
+    color: blueviolet;
+}
+.LogBut{
+    margin: 1rem;
+    
+    text-align: center;
+}
+.LogButton{
+    padding: 1rem;
+    width: 25rem;
+    font-size:medium;
+    color: whitesmoke;
+    background-color: blueviolet;
+    border: none;
+}
+.Account{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: small;
+    color: blueviolet;
+}
+
+
+/* Footer Part */
+footer{
+    grid-column: 1/5;
+    padding: 1rem;
+    height: fit-content;
+}
+.Quote{
+    text-align: justify;
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: fit-content;
+    padding-left: 35rem;
+    
+}
